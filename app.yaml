@@ -1,0 +1,8 @@
+runtime: go112
+
+main: ./cmd/maco.api
+
+env: standard
+
+env_variables:
+  SERVICE_NAME: "maco-api"
