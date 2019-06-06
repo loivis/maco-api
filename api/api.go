@@ -14,5 +14,5 @@ func (a *API) root(w http.ResponseWriter, r *http.Request) {
 }
 
 func (a *API) Register(mux *http.ServeMux) {
-	mux.Handle("/", http.HandlerFunc(a.root))
+	mux.Handle("/characters", http.HandlerFunc(a.root))
 }
